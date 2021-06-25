@@ -22,7 +22,7 @@ tots.per.location(tsc, geo.loc = 'Germany')
 
 #growth rate of countires
 growth.rate(tsc, geo.loc = 'Germany')
-growth.rate(tsc, geo.loc = 'US')
+
 
 #for output in 3D globe formag
 totals.plt(ts)
@@ -31,4 +31,4 @@ live.map(tsc)
 
 #sir Model analysis
 generate.SIR.model(tsc, 'Germany', tot.population = 83000000)
-generate.SIR.model(tsc, 'Russia', tot.population = 144500000)
+
